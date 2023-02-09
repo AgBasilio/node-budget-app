@@ -1,10 +1,15 @@
-var http = require("http");
+const http = require("http");
 
 //para importar modulos se usa la keyword 'require'
-var agModule = require("./myfirstmodule");
+const agModule = require("./myfirstmodule");
 //en el caso de mi modulo, le paso la direccion donde encontrarlo
 
-var url = require("url"); //modulo para jugar con la url
+//tambien se puede exportar solo lo que se va a utilizar del modulo
+const { myAddress, myLastname } = require("./myfirstmodule");
+
+console.log( { myLastname, myAddress });
+
+const url = require("url"); //modulo para jugar con la url
 
 http
   .createServer(function (req, res) {
