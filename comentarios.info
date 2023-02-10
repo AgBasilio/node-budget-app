@@ -4,6 +4,7 @@ node
 //para iniciar el server: node filename.js
 //para pararlo ctrl+c
 //para exportar modulos es necesario usar 'exports' keyword
+- En el archivo package.json, tenemos una seccion scripts, para ejecutar cualquiera de estos scripts hay que escribir: 'npm run <script-name>, hay tag reconocido por npm es 'start' (podemos ejecutar npm start, que equivale a npm run start)
 
 guit
 
@@ -21,3 +22,14 @@ visual code
 shift+option(alt)+F     : para formatear el documento
 
 senver                  : https://semver.org/lang/es/  (reglas versionado semantico)
+
+npm 
+npm init                : escript que crea y configura archivos basicos de una app node (inicializa el repo)
+npm install <pkg-name> -D   : instala el paquete pero como dependencia de desarrollo (-D)
+npm remove <pkg-name>   : elimina el paquete seleccionado
+
+packages
+nodemon                 : automatically restarting the node application when file changes in the directory are detected
+util.promisify          : para utilizar promesas con codigo asinc
+
+npx                     : para ejecutar binarios diectamente. Executes <command> either from a local node_modules/.bin, or from a central cache, installing any packages needed in order for <command> to run
