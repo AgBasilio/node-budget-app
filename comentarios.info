@@ -19,3 +19,5 @@ git-commit              : Create a new commit containing the current contents of
 
 visual code
 shift+option(alt)+F     : para formatear el documento
+
+senver                  : https://semver.org/lang/es/  (reglas versionado semantico)
