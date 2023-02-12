@@ -1,6 +1,5 @@
 node
 
-/* shift+Option(alt)+A : comenta todo el bloque*/
 //para iniciar el server: node filename.js
 //para pararlo ctrl+c
 //para exportar modulos es necesario usar 'exports' keyword
@@ -23,6 +22,9 @@ git brach -d <brach>    : elimina el branch
 
 visual code
 shift+option(alt)+F     : para formatear el documento
+/* shift+Option(alt)+A  : comenta todo el bloque*/
+ctrl + E                : mueve el cursor al final de la linea
+ctrl + A                : mueve el cursor al inicio de la linea
 
 senver                  : https://semver.org/lang/es/  (reglas versionado semantico)
 
@@ -35,5 +37,6 @@ npm remove <pkg-name>   : elimina el paquete seleccionado
 packages
 nodemon                 : automatically restarting the node application when file changes in the directory are detected
 util.promisify          : para utilizar promesas con codigo asinc
+kill-port               : para matar un proceso es un puerto dado
 
 npx                     : para ejecutar binarios diectamente. Executes <command> either from a local node_modules/.bin, or from a central cache, installing any packages needed in order for <command> to run
