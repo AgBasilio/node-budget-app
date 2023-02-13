@@ -4,6 +4,7 @@ node
 //para pararlo ctrl+c
 //para exportar modulos es necesario usar 'exports' keyword
 - En el archivo package.json, tenemos una seccion scripts, para ejecutar cualquiera de estos scripts hay que escribir: 'npm run <script-name>, hay tag reconocido por npm es 'start' (podemos ejecutar npm start, que equivale a npm run start)
+commonjs                : https://nodejs.org/api/modules.html
 
 git
 
@@ -18,6 +19,7 @@ git-commit              : Create a new commit containing the current contents of
 git merge <branch>      : parado en el branch en el que quiero impactar los cambios, ejecuto el comando <branch> es el branch desde el que quiero traer los cambios.
 git brach -d <brach>    : elimina el branch
 git rm <pathspec>       : https://git-scm.com/docs/git-rm . Elimina el o los archivos de <pathspec>
+git commit              : abre el editor para poner comentarios sobre los cambios, una vez terminamos de editar el archivo, para cerrarlo ponemos :wq donde :=command line, w=writing y q=quit
 
 
 .gitignore              : archivo (preferentemente en root) o archivos que definen mediante patrones que archivos seran ignorados por git
