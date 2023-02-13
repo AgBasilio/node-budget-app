@@ -5,7 +5,7 @@ node
 //para exportar modulos es necesario usar 'exports' keyword
 - En el archivo package.json, tenemos una seccion scripts, para ejecutar cualquiera de estos scripts hay que escribir: 'npm run <script-name>, hay tag reconocido por npm es 'start' (podemos ejecutar npm start, que equivale a npm run start)
 
-guit
+git
 
 git branch -a           : muestra las distintas ramas y, con un *, donde estoy parado
 git status              : muestra el estado de los cambios, si los hay y que hacer para resolverlos
