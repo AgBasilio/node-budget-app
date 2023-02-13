@@ -59,3 +59,4 @@ touch <options> <file or directory name> : https://phoenixnap.com/kb/touch-comma
 echo <string> >|>> <file> : se puede usar para crear un archivo tambien, (>> append) guarda el <string> al final del archivo, mientras que > lo sobreescribe 
 echo                    : https://phoenixnap.com/kb/echo-command-linux
 echo .DS_Store >> .gitignore : ejemplo, se agregan los archivos .DS_Store a los que deben ser ignorados
+vi                      : https://docs.oracle.com/cd/E19620-01/805-7644/6j76klopr/index.html
