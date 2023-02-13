@@ -17,6 +17,15 @@ git checkout -b|-B <new_branch>: con -b se crea el 'new_branch' y se hace checko
 git-commit              : Create a new commit containing the current contents of the index and the given log message describing the changes. -m "<comment line>" permite agregar una linea con el mensaje de log, se pueden agregar varias.
 git merge <branch>      : parado en el branch en el que quiero impactar los cambios, ejecuto el comando <branch> es el branch desde el que quiero traer los cambios.
 git brach -d <brach>    : elimina el branch
+git rm <pathspec>       : https://git-scm.com/docs/git-rm . Elimina el o los archivos de <pathspec>
+
+
+.gitignore              : archivo (preferentemente en root) o archivos que definen mediante patrones que archivos seran ignorados por git
+https://linux.die.net/man/7/glob : globbing pathnames, para definir los patrones que daran con los archivos a ignorar
+
+.git/info/exclude       : permite excluir archivos de mi repositorio en particular, sin compartirlo (por ejemplos archivos generados por una herramienta en particular que solo es usada por mi y no hay necesidad de compartir con el resto del equipo)
+git config --global core.excludesFile ~/.gitignore : core.excludesFile, propiedad que permite excluir de forma global ciertos archivos para todos mis repositorios, se crea un archivo preferiblemente en home, candidatos a ignorar son archivos de sistema como .DS_Store
+
 
 
 
@@ -40,3 +49,11 @@ util.promisify          : para utilizar promesas con codigo asinc
 kill-port               : para matar un proceso es un puerto dado
 
 npx                     : para ejecutar binarios diectamente. Executes <command> either from a local node_modules/.bin, or from a central cache, installing any packages needed in order for <command> to run
+
+terminal
+
+touch                   : create a file is it doesn't exist or modify the timestamp if it does.
+touch <options> <file or directory name> : https://phoenixnap.com/kb/touch-command-in-linux
+echo <string> >|>> <file> : se puede usar para crear un archivo tambien, (>> append) guarda el <string> al final del archivo, mientras que > lo sobreescribe 
+echo                    : https://phoenixnap.com/kb/echo-command-linux
+echo .DS_Store >> .gitignore : ejemplo, se agregan los archivos .DS_Store a los que deben ser ignorados
